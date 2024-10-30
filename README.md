@@ -74,12 +74,16 @@ Functional Simulation:
 	linux:/> nclaunch&                 // On subsequent calls to NCVERILOG
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
+![image](https://github.com/user-attachments/assets/bd7192fe-ef0c-4633-a1c2-ffdbb7b9a963)
+
 
 ## Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+![image](https://github.com/user-attachments/assets/2e78b032-03b4-47c0-9111-a4f58426207e)
+
 
 ## Fig 4: cds.lib file Creation
 
@@ -88,6 +92,8 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+![image](https://github.com/user-attachments/assets/514dfc32-ae14-411d-9b8e-0bafc3ccb727)
+
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -122,6 +128,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+![image](https://github.com/user-attachments/assets/72215c79-b51b-4e60-baca-d983ba160360)
+
 
 ## Fig 7: Compiled database in worklib
 
@@ -131,6 +139,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+![image](https://github.com/user-attachments/assets/4d561e00-b170-4bb1-bb4a-a39ca675c6a7)
+
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 
@@ -165,8 +175,14 @@ It contains statements that map logical library names to their physical director
 	Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/4ee712d0-d066-4b04-b877-c24461c77fc3)
+
 
 ## Fig 10: Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/88a2c1a6-8f78-49ef-87a9-d842be73efae)
+
 
 ## Fig 11: Simulation Waveform Window
+![Uploading image.png…]()
+
 
