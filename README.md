@@ -185,4 +185,7 @@ It contains statements that map logical library names to their physical director
 ## Fig 11: Simulation Waveform Window
 
 ![WhatsApp Image 2024-11-24 at 19 41 10_78d9dbbf](https://github.com/user-attachments/assets/65fe78ef-0e4c-4506-92c8-ba454d09394d)
+### Result:
+
+The functionality of a 4-bit adder was successfully verified using a test bench and simulated with the nclaunch tool.
 
