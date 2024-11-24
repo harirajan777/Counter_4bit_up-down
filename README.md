@@ -183,6 +183,6 @@ It contains statements that map logical library names to their physical director
 
 
 ## Fig 11: Simulation Waveform Window
-![Uploading image.png…]()
 
+![WhatsApp Image 2024-11-24 at 19 41 10_78d9dbbf](https://github.com/user-attachments/assets/65fe78ef-0e4c-4506-92c8-ba454d09394d)
 
